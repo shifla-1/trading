@@ -1,0 +1,41 @@
+.form-group {
+    margin-bottom: 20px;
+    background-color: bisque;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="password"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .banner
+  {
+      clip-path: polygon(-207% 0%, 100% 0%, 100% 78%, 34.5% 100%);
+      box-shadow:  20px #fff ;
+      height:auto;
+  }
+  
